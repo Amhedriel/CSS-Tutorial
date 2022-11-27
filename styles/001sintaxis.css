@@ -1,0 +1,9 @@
+/* Veremos cómo es la estructura del sintaxis en CSS */
+
+body{
+  background-color: aquamarine;
+}
+
+selector{
+  propiedad: valor;
+}
