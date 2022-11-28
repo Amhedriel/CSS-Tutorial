@@ -1,0 +1,49 @@
+* {
+  background-color: lightcoral;
+  
+}
+
+h1 {
+  background-color: lightskyblue;
+}
+
+p{
+  background-color: lightgreen;
+}
+
+/* selector de id comienza con numeral # y el nombre del Id
+
+#title{
+  background-color: lightgreen;
+}
+
+/*selector de class comienza con punto . y el nombre de clase*/
+
+.title{
+  background-color: lightsalmon;
+}
+
+.text{
+  background-color: lime;
+}
+
+[href]{
+  background-color: mediumpurple;
+}
+
+[href="https://google.com"]{
+  background-color: orangered;
+}
+
+
+[href^="color"] {
+  background-color: goldenrod;
+}
+
+[href*="color"] {
+  background-color: lightcyan; 
+}
+
+[href $= "azul"] {
+  background-color: steelblue; 
+}
