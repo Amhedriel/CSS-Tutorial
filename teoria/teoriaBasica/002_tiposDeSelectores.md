@@ -243,9 +243,21 @@ Nos falta el de seleccionar si termina por la palabra que le decimos `[atributo 
   <a href="#seccion-verde">Color verde</a>
   <a href="color-azul">Color rojo</a>
 ~~~
-1:07:00
-~~~CS
 
+##
+
+La última modificación que tenemos en los atributos
+
+`[atributo|= valor]`
+
+
+
+
+
+
+
+~~~html
+  <p lang="en-GB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, autem nobis odio assumenda sed quibusdam incidunt iste ex voluptate delectus, natus, non dolorum tempora temporibus optio. In cum maxime debitis sit dolorem assumenda consequatur ea!</p>
 ~~~
 ~~~CS
 
