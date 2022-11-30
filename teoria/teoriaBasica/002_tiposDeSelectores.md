@@ -13,12 +13,19 @@ Categorizando los estilos tenemos:
     * [Selectores por ID y Clase](#selectores-de-atributo-id-y-clase "")
     * [Selectores por atributo](#selectores-por-atributos "")
 
-2. **Selectores Compuestos**
-    * [Selectores Agrupados]( "")
-    * [Selectores Combinadores]( "")
-    * [Pseudo-clases]( "")
-    * [Pseudo-elementos]( "")
 
+* **Lista de selectores**: Algunos ejemplos rápidos:
+```cs
+h1
+a:link
+.manyThings
+#oneThing
+*
+.box p
+.box p:first-child
+h1, h2, .intro
+:hover
+```
 
 ## Selectores Elementales
 
@@ -246,18 +253,38 @@ Nos falta el de seleccionar si termina por la palabra que le decimos `[atributo 
 
 ##
 
-La última modificación que tenemos en los atributos
-
-`[atributo|= valor]`
-
-
-
-
-
-
+La última modificación que tenemos en los atributos, lo veremos mejor explicado viendo un parte de nuestro documento HTML:
 
 ~~~html
   <p lang="en-GB">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, autem nobis odio assumenda sed quibusdam incidunt iste ex voluptate delectus, natus, non dolorum tempora temporibus optio. In cum maxime debitis sit dolorem assumenda consequatur ea!</p>
+~~~
+
+Aquí podemos ver un \<p> con lenguaje english Gran Bretaña, para el ejemplo lo dejaremos solo con "en" lo que implica que está escrito con un idioma inglés:
+
+~~~html
+  <p lang="en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, autem nobis odio assumenda sed quibusdam incidunt iste ex voluptate delectus, natus, non dolorum tempora temporibus optio. In cum maxime debitis sit dolorem assumenda consequatur ea!</p>
+~~~
+
+Y para estos casos aqí tenemos `[atributo|= valor]` Es muy importante que en el caso del idioma se utilice este.
+Si nos movemos al archivo de CSS y colocamos:
+
+~~~CS
+[lang|="en"]{
+  background-color: magenta;
+}
+~~~
+
+Veremos que funciona, pero si esto lo hiceramoscon otro tipo de selectores en el caso de los idiomas normalmente se coloca un guión y la Comarca o el País al que pertenece en estecaso es: ``"en-GB" english Gran Bretaña``, esto lo guardamos y lo ejecutamos, aún funciona, esto sucede porque cuando utilizamos el pay ``(|)`` este valor ``lang`` incluye ``en``, lo podemos ver si colocamos el mouse encima de esta regla en el documento CSS.
+
+Si necesitamosseleccionar un atributo que pueda estar tanto con la palabra como con la palabra y un guión, este es el indicado.
+
+Podemos utilizar estos selectores con cualquier tipo de atributos, no solo con los de \<a>.
+
+~~~CS
+
+~~~
+~~~CS
+
 ~~~
 ~~~CS
 
