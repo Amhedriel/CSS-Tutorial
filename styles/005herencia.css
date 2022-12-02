@@ -1,0 +1,25 @@
+.title{
+  color: cyan;
+  font-size: 10px;
+}
+
+.text{
+  color: lightgrey;
+}
+
+.link{
+  color: inherit;
+}
+
+/* Segundo ejemplo */
+
+body{
+  background-color: #333;
+}
+
+.list{
+  color: indianred;
+}
+.list-item-extra{
+  color: initial;
+}

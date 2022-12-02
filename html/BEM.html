@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navegación con BEM</title>
+  <link rel="stylesheet" href="/styles/BEM.css">
+</head>
+<body>
+  <header>
+    <!-- El bloque es este nav -->
+    <nav class="nav">
+    <!-- Aqui tenemos el primer elemento y/o característica que es el logo -->
+      <img src="/media/patternRojoDoradoNavidad.svg" height="70px" alt="logo" class="nav__logo">
+      <!-- Este div es el contenedor de los enlaces, nav porque es dependiente del bloque nav, dosguiones bajos y la característica links, porque esos elementos son los qque contiene (a) -->
+      <div class="nav__links">
+        <!-- Cada enlace va a tener la clase nav__link, porque es la clase asignada a este menú, links en plural porque es el contenedor de los links, y link en singular cada elemento del contenedor -->
+        <a href="#" class="nav__link">Acerca de</a>
+        <a href="#" class="nav__link">Contactos</a>
+        <!-- Este último enlace es diferente por lo que tendrá un modificador más que es nav__link--active -->
+        <a href="#" class="nav__link nav__link--active">Inicio</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
