@@ -1,0 +1,22 @@
+.example{
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+}
+
+/* Veremos que en display nos aparece -ms-grid; el prefijo -ms
+ quiere decir que estará optimizado para Microsoft Sistems */
+.example{
+  display: -ms-grid;
+  display: grid;
+   /* tenemos -webkit-transition: all .5s; -webkit es por el tema de Chrome */
+  -webkit-transition: all .5s;
+   /* Y -o-transition: all .5s; y -o es para el navegador Opera de IOs */
+  -o-transition: all .5s;
+  transition: all .5s;
+  user-select: none;
+   /* -moz es para Mozilla Fire Fox */
+  -moz-user-select: none;
+  
+}
