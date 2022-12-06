@@ -103,7 +103,7 @@ body{
   color: indianred;
 }
 ```
-podemos ver que nuestra lista está heredando el color en todos los `<li></li>` y esta vez nosotros queremos que uno al menos no lo herede
+podemos ver que nuestra lista está heredando el color en todos los `<li></li>` y esta vez nosotros queremos que uno al menos no lo herede.
 
 ```html
   <ul class="list">
@@ -113,21 +113,14 @@ podemos ver que nuestra lista está heredando el color en todos los `<li></li>` 
     <li class="list-item-extra">item 4</li>
   </ul>
 ```
-Aunque tenga otra clase veremos que sigue heredando el color, para evitar eso tenemos `initial`, es decir vuelve a tu estado inicial, todo aquello que estés heredando ignoralo, y quedate con los estilos por defecto, esto de heredar suele traer problemas porque hay ciertos estilos que no sabemos de donde salen, que hay ciertas propiedades que se están aplicando y no lo encontramos
-```html
-```
+Aunque tenga otra clase veremos que sigue heredando el color, para evitar eso tenemos `initial`, es decir vuelve a tu estado inicial, todo aquello que estés heredando ignoralo, y quedate con los estilos por defecto, esto de heredar suele traer problemas porque hay ciertos estilos que no sabemos de donde salen, que hay ciertas propiedades que se están aplicando y no lo encontramos.
 
-```html
-```
+---
 
-```html
-```
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/004_especificidadYCascada.md "Fundamentos de CSS")
+[Siguiente **&#129042;**](/teoria/teoriaBasica/006_estilosNavegador.md "Estilos del Navegador")
 
-```html
-```
+---
 
-```html
-```
-
-```html
-```
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

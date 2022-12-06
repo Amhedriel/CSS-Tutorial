@@ -66,3 +66,7 @@ Un pequeño ejemplo con colores sería:
 
 Y cuando veamos el panel de Calculado/Computed veremos que el ``color cyan`` de `.title` ahora está tachado, y el que se ah aplicado actualmente es el `color red` de `#title` por su especifidad mayor, entonces aquí tenemos una lista de que propiedades se han aplicado y cual no, y el motivo del porque no se han aplicado, además al lado de esta información nos está indicando en que línea de código en nuestro archivo.css está aplicando esta propiedad. De esta foram podemos depurar muy bien nuestro código CSS, escribamos algo y no se aplique podemos venir a nuestro **Calculado/Computed** y revisar el porqué no se está aplicando.
 
+---
+
+[*Volver* **&ldca;**](/README.md "") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -12,6 +12,14 @@ Categorizando los estilos tenemos:
       * [Selector de Elemento, Tipo o Etiqueta](#selector-de-elemento-tipo-o-etiqueta "")
     * [Selectores por ID y Clase](#selectores-de-atributo-id-y-clase "")
     * [Selectores por atributo](#selectores-por-atributos "")
+      * [Class](#class)
+    * [Selectores por atributos](#selectores-por-atributos)
+      * [Atributo más el Valor](#atributo-más-el-valor)
+      * [Atributo para comprobar si empieza por ese valor](#atributo-para-comprobar-si-empieza-por-ese-valor)
+      * [Atributo universal de elementos](#atributo-universal-de-elementos)
+      * [Atributo de seleccion al final](#atributo-de-seleccion-al-final)
+    * [Selector Idiomas](#selector-idiomas)
+
 
 
 * **Lista de selectores**: Algunos ejemplos rápidos:
@@ -175,7 +183,7 @@ Esta es la forma más sencilla de utilizar el selector de atributos.
 ### Atributo más el Valor
 
 Para ser más especificos nosotros podemos utilizar `atributo` y `valor`, cómo usar esto?, buscaremos un atributo que nos cuadrara y utilizar ese ``atributo`` y ese ``valor``. 
-~~~CS
+~~~CSS
 [href="https://google.com"]{
   background-color: orangered;
 }
@@ -251,7 +259,7 @@ Nos falta el de seleccionar si termina por la palabra que le decimos `[atributo 
   <a href="color-azul">Color rojo</a>
 ~~~
 
-##
+## Selector Idiomas
 
 La última modificación que tenemos en los atributos, lo veremos mejor explicado viendo un parte de nuestro documento HTML:
 
@@ -274,25 +282,18 @@ Si nos movemos al archivo de CSS y colocamos:
 }
 ~~~
 
-Veremos que funciona, pero si esto lo hiceramoscon otro tipo de selectores en el caso de los idiomas normalmente se coloca un guión y la Comarca o el País al que pertenece en estecaso es: ``"en-GB" english Gran Bretaña``, esto lo guardamos y lo ejecutamos, aún funciona, esto sucede porque cuando utilizamos el pay ``(|)`` este valor ``lang`` incluye ``en``, lo podemos ver si colocamos el mouse encima de esta regla en el documento CSS.
+Veremos que funciona, pero si esto lo hiceramos con otro tipo de selectores en el caso de los idiomas normalmente se coloca un guión y la Comarca o el País al que pertenece, en este caso es: ``"en-GB" english Gran Bretaña``, esto lo guardamos y lo ejecutamos, aún funciona, esto sucede porque cuando utilizamos el pay ``(|)`` este valor ``lang`` incluye ``en``, lo podemos ver si colocamos el mouse encima de esta regla en el documento CSS.
 
 Si necesitamosseleccionar un atributo que pueda estar tanto con la palabra como con la palabra y un guión, este es el indicado.
 
 Podemos utilizar estos selectores con cualquier tipo de atributos, no solo con los de \<a>.
 
-~~~CS
+---
 
-~~~
-~~~CS
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/001_sintaxisDeCSS.md "Sintaxis de CSS") 
+[Siguiente **&#129042;**](/teoria/teoriaBasica/003.1_selectoresPseudoClases.md "Selectores Compuestos")
 
-~~~
-~~~CS
+---
 
-~~~
-
-
-
-* [Universal]( "")
-* [De tipo]( "")
-* [Clases]( "")
-* [Descendiente]( "")
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

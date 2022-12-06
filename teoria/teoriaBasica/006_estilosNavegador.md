@@ -54,15 +54,12 @@ Para despistados, lo debemeos poner por encima para que por cascada en caso de q
 
 * Revisando `normalize.css` puede que no entendamos de momento, pero más adelante si volvemos a dar un vistazo entenderemos todo y porqué está puesto así y no de otra forma, podremos revisarlo y ver que está todo comentado y documentado, y nos dice que cosas arreglan. Debemos recordar que en nuestros proyectos siempre coloquemos este documento `normalize.css` así no importará en que navegadro se esté viendo, de esta forma sabremos que todas las fuentes, todos los margenes y todo el estado por defecto del navegador va a ser en mismo independientemente de que navegador sea.
 
+---
 
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/005_herenciaEnCSS.md "Herencia") 
+[Siguiente **&#129042;**](/teoria/teoriaBasica/007_prefijosPropietarios.md "Prefijos Propietarios")
+
+---
+
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

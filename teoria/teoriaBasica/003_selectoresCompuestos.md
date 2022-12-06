@@ -3,10 +3,11 @@
 Empezaremos dando un vistazo a los selectores agrupados
 
 2. **Selectores Compuestos**
-    * [Selectores Agrupados]( "")
-    * [Selectores Combinadores]( "")
-    * [Pseudo-clases]( "")
-    * [Pseudo-elementos]( "")
+    * [Selectores Agrupados](#selectores-agrupados)
+    * [Selectores Combinadores](#selectores-combinadores)
+      * [Selectores Descendentes](#selectores-descendentes)
+      * [Selector Hermano](#selector-hermano)
+    * [Selecotores de Hijo Directo](#selectores-de-hijo-directo)
 
 ## Selectores Agrupados
 
@@ -215,3 +216,13 @@ Con el selector descendente nos selecciona todos los elementos `<p></p>` que est
   background-color: tomato;
 }
 ```
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/002_tiposDeSelectores.md "Selectores CSS")
+[Siguiente **&#129042;**](/teoria/teoriaBasica/003.1_selectoresPseudoClases.md "Selectores pseudo clases")
+
+---
+
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

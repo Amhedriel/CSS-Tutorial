@@ -30,10 +30,13 @@ body{background-color:lightcoral}
 ```
 Este código que sale aquí es el código procesado al que se le añadirán los prefijos y otras cosas, nosotros segiremos trabajando sobre el archivo ``style.css`` pero en el index.html en lugar de cargar ese archivo , lo cambiaremos y pediremos que nos muestre el archivo `style-dist.css`, Este archivo es unicamente para que lo interprete el navegador.
 
-Veamos como funciona el tema de los prefijos, volvamos al navegador y entremos a la página oficial de Autoprefixer, para copiar el ejemplo que nos dán y ver si nos sale el mismo resultado que muestran, y si comparamos hay varias cosas que no nos muestra, porque por defecto nos muestra 2 versiones e intentaremos ir más atrás, **Settings**-> **CSS Tools** -> *Autoprefixer*, en la opción de *target Browaers* vamos a borrar todo lo que nos da, y le diremos a que navegadores queremos apuntar
+Veamos como funciona el tema de los prefijos, volvamos al navegador y entremos a la página oficial de Autoprefixer, para copiar el ejemplo que nos dán y ver si nos sale el mismo resultado que muestran, y si comparamos hay varias cosas que no nos muestra, porque por defecto nos muestra 2 versiones e intentaremos ir más atrás, **Settings**-> **CSS Tools** -> *Autoprefixer*, en la opción de *target Browaers* vamos a borrar todo lo que nos da, y le diremos a que navegadores queremos apuntar, colocaremos `defaults` Enter, hecho esto cerramos las ventanas emergentes, cerramos `style-dist.css` si estaba abierto en nuestro proyecto.
 
-```
-```
-```
-```
-```
+Con las modificacionesque hicimos ya podemos ver el resultadoqu esperábamos, recordemos que se actualizan continuamente, tanto como los navegadores como las tecnologias que insiden en ellos, asi que algunas cosas ya serán estandar y no aparecerán pero otras nuevas entrarán y se realizará el mismo proceso de conversión.
+
+Mencionar que **Prepos** tiene un servidor de desarrollo que se encuentra en **Server** y clickear en *Open Preview* y nos mostrará un servidor de desarrollo que se recarga automáticamente. Y Prepos tendría más opciones que usar Live Server, por ejemplo Prepos tiene un cambio visual más leve con pequeñas animaciones, no son bruscon como Live Server.
+
+---
+
+[*Volver* **&ldca;**](/README.md "") 
+[*Subir* **&#11165;**](# "Ir al título")

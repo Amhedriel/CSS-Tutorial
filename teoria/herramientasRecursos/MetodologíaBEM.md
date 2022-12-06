@@ -145,3 +145,8 @@ Para esto es BEM para no tener que estar repitiendo código y hacerlo de forma m
 }
 ```
 Y gracias a evitar esto es lo que se utiliza la metodología BEM y así si queremos modificar solamente un elemento en específico usamos un modificador y yá, en este caso `nav__link--active`
+
+---
+
+[*Volver* **&ldca;**](/README.md "") 
+[*Subir* **&#11165;**](# "Ir al título")

@@ -14,9 +14,18 @@ Recordemos que para poder hacer los cambios a nuestro documento HTML con nuestro
 
 Sabiendo esto comencemos a ver la forma de trabajar con él:
 
-1. [Sintaxis](/teoria/teoriaBasica/001_sintaxisDeCSS.md "Sintaxis de CSS")
-2. []( "")
-3. []( "")
-4. []( "")
-5. []( "")
-6. []( "")
+1. [Sintaxis de CSS](/teoria/teoriaBasica/001_sintaxisDeCSS.md "Sintaxis de CSS")
+2. [Selectores CSS](/teoria/teoriaBasica/002_tiposDeSelectores.md "Selectores CSS")
+3. [Selectores Compuestos](/teoria/teoriaBasica/ "Compuestos, Agrupados, Combinadores...")
+  3. 1. [Selectores pseudo clases](/teoria/teoriaBasica/ "Dar formato según el estado")
+4. [Fundamentos de CSS](/teoria/teoriaBasica/ "¿Cómo funciona? Especificidad y Cascada")
+5. [Herencia](/teoria/teoriaBasica/ "Herencia")
+6. [Estilos del Navegador](/teoria/teoriaBasica/ "Estilos por Defecto del Navegador")
+7. [Prefijos Propietarios](/teoria/teoriaBasica/ "Autoprefixer CSS")
+8. [Box Model](/teoria/teoriaBasica/ "Quizás el tema más importante de CSS")
+
+
+---
+
+[*Volver* **&ldca;**](/teoria/README.md "") 
+[*Subir* **&#11165;**](# "Ir al título")

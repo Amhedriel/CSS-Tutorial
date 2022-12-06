@@ -40,3 +40,13 @@ Pero en el resultado veremos que `display` muestra:
 Entonces, gracia a estos prefijos podemos implementar estas mejoras y que el navegador sea capáz de interpretarlo, para que todo esto se nos escriba autpmáticamente no tenemos que ir a **Autoprefixer** y pegar nuestro código, lo que haremos es instalar un programa que se encarga de eso por nosotros.
 
 En este caso usaremos elñ programa llamado [Prepos](/teoria/herramientasRecursos/Prepos.md "Ir a Preopos.md 'Herramientas/Recursos'").
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/006_estilosNavegador.md "Estilos del Navegador") 
+[Siguiente **&#129042;**](/teoria/teoriaBasica/008_boxModel.md "Box Model")
+
+---
+
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

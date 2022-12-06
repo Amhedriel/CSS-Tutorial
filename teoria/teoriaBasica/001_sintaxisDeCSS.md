@@ -56,3 +56,13 @@ A la combinación de ambos se le denomina como declaración y esta declaración 
 
 
 Ahora bien, visto todo el tema de sintaxis y la terminología a la hora de sabemos nombrar a cada uno de los componentes.
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/README.md "Menu principal") 
+[Siguiente **&#129042;**](/teoria/teoriaBasica/002_tiposDeSelectores.md "Selectores CSS")
+
+---
+
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")

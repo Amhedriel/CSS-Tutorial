@@ -4,8 +4,27 @@ Bienvenidos al tutorial de CSS que estoy creando para poder tener todos mis cono
 
 Revisemos parte del conocimiento recopilado hasta ahora.
 
-## CSS básico
+En este recopilatorio inicial veremos desde la sintaxis hasta un manejo moderado del lenguaje CSS.
 
-En este recopilatorio inicial veremos desde la sintaxis hasta un manejo básico del lenguaje CSS.
+* [Teoria de CSS](teoria/README.md "README teoría CSS")
 
-* [Sintaxis de CSS]( "")
+## Herramientas y Recursos
+
+Algunas herramientas y recursos necesarios para seguir CSS hasta el nivel profesional, y son **"gratis"**.
+
+* [Herramienta inicaial de CSS](/teoria/herramientasRecursos/HerramientasDeDesarrollo.md "Panel del desarrollador en el navegador")
+
+* [Metodología BEM](/teoria/herramientasRecursos/Metodolog%C3%ADaBEM.md "Un resumen de dicha Metodología")
+
+* [Normalize](/teoria/herramientasRecursos/normalize.css "Archivo de Normalize en .css para copiar y pegar")
+
+* [Prepos](/teoria/herramientasRecursos/Prepos.md "En este tutorial veremos Prepos")
+
+* [](/teoria/herramientasRecursos/ "")
+
+* [](/teoria/herramientasRecursos/ "")
+
+---
+
+[*Volver* **&ldca;**]( "") 
+[*Subir* **&#11165;**](# "Ir al título")

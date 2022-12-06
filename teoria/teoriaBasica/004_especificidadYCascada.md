@@ -1,5 +1,8 @@
 # Fundamentos de CSS
 
+* [¿Cómo Funciona?](#¿cómo-funciona-css)
+* [Cascada](#cascada)
+
 ## **¿Cómo funciona CSS?**
 
 A grandes rasgos con algo llamado:
@@ -110,3 +113,13 @@ La cascada funciona siempre que la especifidad sobre el ``elemento`` sea la mism
 ~~~
 
 Aqui si funcionará la cascada, debido a que la especifidad sobre el ``elemento`` es la misma.
+
+---
+
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/003.1_selectoresPseudoClases.md "Dar formato según el estado") 
+[Siguiente **&#129042;**](/teoria/teoriaBasica/005_herenciaEnCSS.md "Herencia")
+
+---
+
+[*Volver* **&ldca;**](/teoria/teoriaBasica/README.md "Menu principal") 
+[*Subir* **&#11165;**](# "Ir al título")
