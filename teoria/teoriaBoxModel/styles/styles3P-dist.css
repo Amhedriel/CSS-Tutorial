@@ -1,0 +1,45 @@
+
+
+body{
+  background-color: #333;
+  color: #fff;
+  margin: 0px;
+}
+
+.header{
+  background-color:steelblue;
+}
+.title{
+  width: 300px;
+}
+
+.block{
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+  /* margin-top: 100px;
+  margin: 0; */
+  margin-right: auto;
+  margin-left: auto;
+  /* padding: 50px 20px 100px 70px; */
+}
+
+.inline{
+  background-color: lightseagreen;
+  color: inherit;
+  /* padding: 50px 20px 100px 70px;
+  margin-left: 100PX; */
+
+}
+
+.buttons{
+  background-color: steelblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.button{
+  margin-left: 130px;
+  padding: 25px 50px;
+}

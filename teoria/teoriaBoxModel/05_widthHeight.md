@@ -75,8 +75,8 @@ Recordemos que solo podemos darle medidas a los elementos de bloque.
 
 ---
 
-[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBoxModel/ "") 
-[Siguiente **&#129042;**](/teoria/teoriaBoxModel/ "")
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBoxModel/04.1_erroresMargin.md "Margin Errors") 
+[Siguiente **&#129042;**](/teoria/teoriaBoxModel/001_boxModel.md "Box Model")
 
 ---
 

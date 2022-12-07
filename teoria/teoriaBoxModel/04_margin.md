@@ -153,8 +153,8 @@ Si utilizáramos este truco en el título centramos la caja, porque vemos el fon
 
 ---
 
-[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBoxModel "") 
-[Siguiente **&#129042;**](/teoria/teoriaBoxModel/ "")
+[**&#11176;** *Anterior* &#11007;](/teoria/teoriaBoxModel/03_padding.md "Padding") 
+[Siguiente **&#129042;**](/teoria/teoriaBoxModel/04.1_erroresMargin.md "Errores comunes Margin")
 
 ---
 

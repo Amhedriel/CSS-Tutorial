@@ -284,7 +284,7 @@ Si nos movemos al archivo de CSS y colocamos:
 
 Veremos que funciona, pero si esto lo hiceramos con otro tipo de selectores en el caso de los idiomas normalmente se coloca un guión y la Comarca o el País al que pertenece, en este caso es: ``"en-GB" english Gran Bretaña``, esto lo guardamos y lo ejecutamos, aún funciona, esto sucede porque cuando utilizamos el pay ``(|)`` este valor ``lang`` incluye ``en``, lo podemos ver si colocamos el mouse encima de esta regla en el documento CSS.
 
-Si necesitamosseleccionar un atributo que pueda estar tanto con la palabra como con la palabra y un guión, este es el indicado.
+Si necesitamos seleccionar un atributo que pueda estar tanto con la palabra como con la palabra y un guión, este es el indicado.
 
 Podemos utilizar estos selectores con cualquier tipo de atributos, no solo con los de \<a>.
 
