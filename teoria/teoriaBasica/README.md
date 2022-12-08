@@ -23,6 +23,12 @@ Sabiendo esto comencemos a ver la forma de trabajar con él:
 6. [Estilos del Navegador](/teoria/teoriaBasica/ "Estilos por Defecto del Navegador")
 7. [Prefijos Propietarios](/teoria/teoriaBasica/ "Autoprefixer CSS")
 8. [Box Model](/teoria/teoriaBasica/ "Quizás el tema más importante de CSS")
+9. [Colapso de Márgenes](/teoria/teoriaBasica/010_colapsadoDeMargenes.md "Errores")
+10. [Display](/teoria/teoriaBasica/011_display.md "Display")
+11. [Outline](/teoria/teoriaBasica/012_outline.md "Outline")
+12. []( "")
+13. []( "")
+14. []( "")
 
 
 ---

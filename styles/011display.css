@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333;
+  color: #fff;
+}
+
+.text{
+  background-color: cyan;
+  /* display: none; */
+  display: inline;
+  width: 200px;
+}
+
+.link{
+  background-color: #fff;
+  display: inline-block;
+  width: 150px;
+  margin-top: 50px;
+  /* display: block;
+  width: 100px;
+  margin-bottom: 20px; */
+}
+
