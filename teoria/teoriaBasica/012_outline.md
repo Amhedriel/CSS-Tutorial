@@ -93,11 +93,31 @@ En la página ya nos mueve la caja, aparece líneas de scroll, y esto ocupa siti
   border: 5px solid lightcoral;
 }
 ```
-como vemos el `borde` termina en cierto punto, asi que online siempre se dibuja por fuera de la caja 3:51:30
+Como vemos el `borde` termina en cierto punto, asi que online siempre se dibuja por fuera de la caja, además el borde tiene el problema de que estará modificando la caja y empuja a los elementos, aunque tengamos el:
 
+```CSS
+*{
+  box-sizing: border-box;
+}
 ```
+La caja no tiene medidas, por tanto ahora está midiendo 50px de borde + lo que tiene de contenido, con `outline` todos esos problemas nos lo ahorramos.
+
+## online-offset
+
+Con esto podemos determinar a cuanta distancia de la caja queremos que se muestre el `outline`:
+
+```CSS
+.outline{
+  outline: 10px solid cyan;
+  outline-offset: 10px;
+  border: 5px solid lightcoral;
+  
+}
 ```
-```
+Podemos observar que se separa 10px de la caja, si lo hacemos más pequeño con -10px podemos colocarlo por dentro de la caja, cosa que con bordes no podemos, esto se ve más con imágenes.
+
+Este tipo de efectos no se puede conseguir con border, solamente con `outline`, además de que tiene todas las propiedades de border porque tenemos todos los tipos de borde.
+
 ```
 ```
 ```
@@ -112,7 +132,7 @@ como vemos el `borde` termina en cierto punto, asi que online siempre se dibuja 
 ---
 
 [**&#11176;** *Anterior* &#11007;](/teoria/teoriaBasica/011_display.md "Errores en márgenes") 
-[Siguiente **&#129042;**](/teoria/teoriaBasica/012 "Display")
+[Siguiente **&#129042;**](/teoria/teoriaBasica/013_textAlign.md "Text align")
 
 ---
 
