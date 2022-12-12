@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.container{
+  width: 200px;
+  height: 200px;
+  background-color: #555;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: #333;
+}
+
+.box-1{
+  background-color: cyan;
+  position: relative;
+  z-index: -1;
+}
+
+.box-2{
+  background-color: lightgreen;
+  position: relative;
+  top: 50px;
+  z-index: 1;
+}
+
+.box-3{
+  background-color: lightcoral;
+  position: relative;
+  z-index: 10;
+}

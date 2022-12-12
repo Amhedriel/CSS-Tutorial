@@ -8,17 +8,41 @@ body{
 }
 
 .box{
-  /* width: 100px;
-  height: 100px; */
+  width: 100px;
+  height: 100px;
   text-align: center;
+}
+
+.container{
+  width: 300px;
+  height: 300px;
+  /* background-color: cyan; */
+  position: relative;
 }
 
 .box-1{
   background-color: lightcoral;
-
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .box-2{
   background-color: lightgreen;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
+.link{
+  position: absolute;
+  background-color: #fff;
+  width: 200px;
+  top: 50px;
+}
+
+.link-2{
+  background-color: #fff;
+  width: 200px;
+  top: 100px;
 }

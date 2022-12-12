@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  /* margin-top: 50px; */
+}
+p{
+  font-size: 1.5em;
+}
+img{
+  width: 100%;
+  display: block;
+}
+
+.header{
+  text-align: center;
+  /* padding: 25px 0; */
+  background-color: lightskyblue;
+  color: black;
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+  /* position: sticky;
+  top: 0; */
+  /* height: 200px; */
+}
+
+/* .menu{
+  position: sticky;
+  top: 0;
+} */
+article{
+  outline: 3px solid red;
+}
+.article-title{
+  position: sticky;
+  top: 0px;
+  background-color: #333;
+  margin: 0;
+}
